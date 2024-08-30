@@ -13,7 +13,7 @@
 				"wis"
 			],
 			"spellcastingAbility": "int",
-			"casterProgression": "artificer",
+			"casterProgression": "Powdermage",
 			"preparedSpells": "<$level$> / 2 + <$int_mod$>",
 			"cantripProgression": [
 				2,
@@ -194,7 +194,7 @@
 			"subclassTitle": "Artificer Specialist",
 			"fluff": [
 				{
-					"name": "Artificer",
+					"name": "Powdermage",
 					"type": "section",
 					"entries": [
 						"Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections. Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.",
@@ -258,7 +258,7 @@
 					"source": "CD"
 				},
 				{
-					"name": "Artificer",
+					"name": "Powdermage",
 					"type": "section",
 					"entries": [
 						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use {@item alchemist's supplies|PHB} to create a potent elixir, {@item calligrapher's supplies|PHB} to inscribe a sigil of power on an ally's armor, or {@item tinker's tools|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
@@ -338,9 +338,9 @@
 		{
 			"name": "Alchemist",
 			"shortName": "Alchemist",
-			"source": "TCE",
-			"className": "Artificer",
-			"classSource": "TCE",
+			"source": "CD",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -384,9 +384,9 @@
 		{
 			"name": "Armorer",
 			"shortName": "Armorer",
-			"source": "TCE",
-			"className": "Artificer",
-			"classSource": "TCE",
+			"source": "CD",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"page": 15,
 			"additionalSpells": [
 				{
@@ -424,9 +424,9 @@
 		{
 			"name": "Artillerist",
 			"shortName": "Artillerist",
-			"source": "TCE",
-			"className": "Artificer",
-			"classSource": "TCE",
+			"source": "CD",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -470,9 +470,9 @@
 		{
 			"name": "Battle Smith",
 			"shortName": "Battle Smith",
-			"source": "TCE",
-			"className": "Artificer",
-			"classSource": "TCE",
+			"source": "CD",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -517,7 +517,7 @@
 	"classFeature": [
 		{
 			"name": "Optional Rule: Firearm Proficiency",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -557,7 +557,7 @@
 			]
 		},
 		{
-			"name": "Infusions Known",
+			"name": "Powder Trance",
 			"source": "CD",
 			"page": 1,
 			"className": "Powdermage",
@@ -565,13 +565,117 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"When you gain this feature, pick four artificer infusions to learn, choosing from the \"{@filter Artificer Infusions|optionalfeatures|feature type=ai|source=TCE}\" section at the end of the class's description. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table.",
-				"Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one."
+				"{@i 2nd-level artificer feature}",
+				"Starting at 2nd level, you can use your reaction to prepare and ignite gunpowder, entering a Powder Trance.",
+				"When entering the trance in this way, you can only consume an amount of charges equal to your spellcasting ability modifier (minimum of 1). Once in the trance, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Gain advantage on initiative rolls.",
+						"Your movement speed increases by 10 feet.",
+						"You can add your Wisdom modifier to your initiative and damage rolls made with firearms.",
+						"Gain proficiency in {@skill Perception}. If you are already proficient, gain expertise."
+					]
+				},
+				"The trance lasts for 1 minute.",
+				"At the start of each of your successive turns, you must expend a Powder Charge.",
+				"If you don’t have enough charges, you lose the trance and become afflicted with Powder Blindness. You can use a bonus action to consume gunpowder, gaining Powder Charges. For every gram of gunpowder consumed, you gain one Powder Charge. When you gain Powder Charges in this way, you must make a Powder Blindness save, with a -1 penalty for each gram consumed.",
+				"You can spend these Powder Charges to fuel various Powder Maneuvers. You start knowing three such maneuvers: Controlled Demolition, Flow State, and Reverberative Shot. You learn more powder maneuvers as you gain levels in this class.",
+				"Some of your powder maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Powder Maneuver",
+					"attributes": [
+						"wis"
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Controlled Demolition|Powdermage||2"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Flow State|Powdermage||2"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Reverberative Shot|Powdermage||2"
+						}
+					]
+				},
+				"Your Powder Blindness failures are tracked similarly to Death Saving Throws. You start with 0 failures, and a maximum of failures equal to your proficiency bonus. If you accumulate failures equal to your proficiency bonus, you lose the trance and are afflicted with Powder Blindness."
+			]
+		},
+		{
+			"name": "Controlled Demolition",
+			"source": "CD",
+			"page": 1,
+			"className": "Powdermage",
+			"classSource": "CD",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Powder Charge"
+			},
+			"entries": [
+				"Ignite the lingering gunpowder on your bullet just before impact. As an action, spend 1 Powder Charge make a firearm attack that deals additional fire damage equal to your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Flow State",
+			"source": "CD",
+			"page": 1,
+			"className": "Powdermage",
+			"classSource": "CD",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Powder Charge"
+			},
+			"entries": [
+				"Spend 2 Powder Charges to take the {@action Dodge} action as a bonus action on your turn."
+			]
+		},
+		{
+			"name": "Reverberative Shot",
+			"source": "CD",
+			"page": 1,
+			"className": "Powdermage",
+			"classSource": "CD",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Powder Charge"
+			},
+			"entries": [
+				"Infuse your weapon with explosive energy, causing the next shot to fire at an incredible speed. As an action, spend 2 Powder Charges to make a firearm attack that deals an additional 1d8 thunder damage."
+			]
+		},
+		{
+			"name": "Powder Blindness",
+			"source": "CD",
+			"page": 1,
+			"className": "Powdermage",
+			"classSource": "CD",
+			"level": 2,
+			"entries": [
+				"{@i 2nd-level artificer feature}",
+				{
+					"type": "list",
+					"items": [
+						"Your vision is impaired, and you have disadvantage on attack rolls and ability checks that rely on sight.",
+						"Powder Blindness lasts for a number of minutes equal to the number of rounds you spent in the Powder Trance."
+					]
+				},
+				"You can attempt to end the Powder Blindness at the start of each of your turns by using an action to make a Constitution saving throw with a DC of 8. On a successful save, the Powder Blindness ends. "
 			]
 		},
 		{
 			"name": "Artificer Specialist",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -579,8 +683,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 3,
 			"entries": [
 				"{@i 3rd-level artificer feature}",
@@ -589,7 +693,7 @@
 		},
 		{
 			"name": "The Right Tool for the Job",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -597,8 +701,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 3,
 			"entries": [
 				"{@i 3rd-level artificer feature}",
@@ -607,7 +711,7 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -615,8 +719,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 4,
 			"entries": [
 				"{@i 4th-level artificer feature}",
@@ -626,7 +730,7 @@
 		},
 		{
 			"name": "Artificer Specialist Feature",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -634,8 +738,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 5,
 			"entries": [
 				"{@i 5th-level artificer feature}",
@@ -644,7 +748,7 @@
 		},
 		{
 			"name": "Tool Expertise",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -652,8 +756,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 6,
 			"entries": [
 				"{@i 6th-level artificer feature}",
@@ -662,7 +766,7 @@
 		},
 		{
 			"name": "Flash of Genius",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -670,8 +774,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 7,
 			"entries": [
 				"{@i 7th-level artificer feature}",
@@ -681,7 +785,7 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -689,8 +793,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 8,
 			"entries": [
 				"{@i 8th-level artificer feature}",
@@ -700,7 +804,7 @@
 		},
 		{
 			"name": "Artificer Specialist Feature",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -708,8 +812,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 9,
 			"entries": [
 				"{@i 9th-level artificer feature}",
@@ -718,7 +822,7 @@
 		},
 		{
 			"name": "Magic Item Adept",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -726,8 +830,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 10,
 			"entries": [
 				"{@i 10th-level artificer feature}",
@@ -743,7 +847,7 @@
 		},
 		{
 			"name": "Spell-Storing Item",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -751,8 +855,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 11,
 			"entries": [
 				"{@i 11th-level artificer feature}",
@@ -762,7 +866,7 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -770,8 +874,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 12,
 			"entries": [
 				"{@i 12th-level artificer feature}",
@@ -781,7 +885,7 @@
 		},
 		{
 			"name": "Magic Item Savant",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -789,8 +893,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 14,
 			"entries": [
 				"{@i 14th-level artificer feature}",
@@ -806,7 +910,7 @@
 		},
 		{
 			"name": "Artificer Specialist Feature",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -814,8 +918,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 15,
 			"entries": [
 				"{@i 15th-level artificer feature}",
@@ -824,7 +928,7 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -832,8 +936,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 16,
 			"entries": [
 				"{@i 16th-level artificer feature}",
@@ -843,7 +947,7 @@
 		},
 		{
 			"name": "Magic Item Master",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -851,8 +955,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 18,
 			"entries": [
 				"{@i 18th-level artificer feature}",
@@ -861,7 +965,7 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -869,8 +973,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 19,
 			"entries": [
 				"{@i 19th-level artificer feature}",
@@ -880,7 +984,7 @@
 		},
 		{
 			"name": "Soul of Artifice",
-			"source": "TCE",
+			"source": "CD",
 			"page": 9,
 			"otherSources": [
 				{
@@ -888,8 +992,8 @@
 					"page": 54
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"level": 20,
 			"entries": [
 				"{@i 20th-level artificer feature}",
@@ -907,7 +1011,7 @@
 	"subclassFeature": [
 		{
 			"name": "Alchemist",
-			"source": "TCE",
+			"source": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -915,10 +1019,10 @@
 					"page": 58
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Alchemist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"entries": [
 				"An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
@@ -938,7 +1042,7 @@
 		},
 		{
 			"name": "Alchemist Spells",
-			"source": "TCE",
+			"source": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -946,10 +1050,10 @@
 					"page": 58
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Alchemist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -992,7 +1096,7 @@
 		},
 		{
 			"name": "Experimental Elixir",
-			"source": "TCE",
+			"source": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -1000,10 +1104,10 @@
 					"page": 58
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Alchemist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1053,7 +1157,7 @@
 		},
 		{
 			"name": "Tool Proficiency",
-			"source": "TCE",
+			"source": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -1061,10 +1165,10 @@
 					"page": 58
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Alchemist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1073,7 +1177,7 @@
 		},
 		{
 			"name": "Alchemical Savant",
-			"source": "TCE",
+			"source": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -1081,10 +1185,10 @@
 					"page": 58
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Alchemist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 5,
 			"header": 2,
 			"entries": [
@@ -1093,7 +1197,7 @@
 		},
 		{
 			"name": "Restorative Reagents",
-			"source": "TCE",
+			"source": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -1101,10 +1205,10 @@
 					"page": 58
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Alchemist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1120,7 +1224,7 @@
 		},
 		{
 			"name": "Chemical Mastery",
-			"source": "TCE",
+			"source": "CD",
 			"page": 14,
 			"otherSources": [
 				{
@@ -1128,10 +1232,10 @@
 					"page": 58
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Alchemist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1147,12 +1251,12 @@
 		},
 		{
 			"name": "Armorer",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"entries": [
 				"An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
@@ -1176,12 +1280,12 @@
 		},
 		{
 			"name": "Dampening Field",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"type": "item",
 			"entries": [
@@ -1190,12 +1294,12 @@
 		},
 		{
 			"name": "Defensive Field",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"type": "item",
 			"entries": [
@@ -1204,12 +1308,12 @@
 		},
 		{
 			"name": "Lightning Launcher",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"type": "item",
 			"entries": [
@@ -1218,12 +1322,12 @@
 		},
 		{
 			"name": "Powered Steps",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"type": "item",
 			"entries": [
@@ -1232,12 +1336,12 @@
 		},
 		{
 			"name": "Thunder Gauntlets",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"type": "item",
 			"entries": [
@@ -1246,12 +1350,12 @@
 		},
 		{
 			"name": "Arcane Armor",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1271,12 +1375,12 @@
 		},
 		{
 			"name": "Armor Model",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1339,12 +1443,12 @@
 		},
 		{
 			"name": "Armorer Spells",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1388,12 +1492,12 @@
 		},
 		{
 			"name": "Tools of the Trade",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1403,12 +1507,12 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 5,
 			"header": 2,
 			"entries": [
@@ -1418,12 +1522,12 @@
 		},
 		{
 			"name": "Armor Modifications",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1433,12 +1537,12 @@
 		},
 		{
 			"name": "Perfected Armor",
-			"source": "TCE",
+			"source": "CD",
 			"page": 15,
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Armorer",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1463,7 +1567,7 @@
 		},
 		{
 			"name": "Artillerist",
-			"source": "TCE",
+			"source": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -1471,10 +1575,10 @@
 					"page": 59
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Artillerist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"entries": [
 				"An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power was valued by all the armies of the Last War. Now that the war is over, some members of this specialization have sought to build a more peaceful world by using their powers to fight the resurgence of strife in Khorvaire.",
@@ -1495,7 +1599,7 @@
 		},
 		{
 			"name": "Artillerist Spells",
-			"source": "TCE",
+			"source": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -1503,10 +1607,10 @@
 					"page": 59
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Artillerist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1549,7 +1653,7 @@
 		},
 		{
 			"name": "Eldritch Cannon",
-			"source": "TCE",
+			"source": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -1557,10 +1661,10 @@
 					"page": 59
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Artillerist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1598,7 +1702,7 @@
 		},
 		{
 			"name": "Tool Proficiency",
-			"source": "TCE",
+			"source": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -1606,10 +1710,10 @@
 					"page": 59
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Artillerist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1618,7 +1722,7 @@
 		},
 		{
 			"name": "Arcane Firearm",
-			"source": "TCE",
+			"source": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -1626,10 +1730,10 @@
 					"page": 59
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Artillerist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 5,
 			"header": 2,
 			"entries": [
@@ -1639,7 +1743,7 @@
 		},
 		{
 			"name": "Explosive Cannon",
-			"source": "TCE",
+			"source": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -1647,10 +1751,10 @@
 					"page": 59
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Artillerist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1666,7 +1770,7 @@
 		},
 		{
 			"name": "Fortified Position",
-			"source": "TCE",
+			"source": "CD",
 			"page": 17,
 			"otherSources": [
 				{
@@ -1674,10 +1778,10 @@
 					"page": 59
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Artillerist",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -1693,7 +1797,7 @@
 		},
 		{
 			"name": "Battle Smith",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1701,10 +1805,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"entries": [
 				"Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.",
@@ -1729,7 +1833,7 @@
 		},
 		{
 			"name": "Battle Ready",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1737,10 +1841,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1756,7 +1860,7 @@
 		},
 		{
 			"name": "Battle Smith Spells",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1764,10 +1868,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1810,7 +1914,7 @@
 		},
 		{
 			"name": "Steel Defender",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1818,10 +1922,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1833,7 +1937,7 @@
 		},
 		{
 			"name": "Tool Proficiency",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1841,10 +1945,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -1853,7 +1957,7 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1861,10 +1965,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 5,
 			"header": 2,
 			"entries": [
@@ -1873,7 +1977,7 @@
 		},
 		{
 			"name": "Arcane Jolt",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1881,10 +1985,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -1901,7 +2005,7 @@
 		},
 		{
 			"name": "Improved Defender",
-			"source": "TCE",
+			"source": "CD",
 			"page": 18,
 			"otherSources": [
 				{
@@ -1909,10 +2013,10 @@
 					"page": 60
 				}
 			],
-			"className": "Artificer",
-			"classSource": "TCE",
+			"className": "Powdermage",
+			"classSource": "CD",
 			"subclassShortName": "Battle Smith",
-			"subclassSource": "TCE",
+			"subclassSource": "CD",
 			"level": 15,
 			"header": 2,
 			"entries": [
