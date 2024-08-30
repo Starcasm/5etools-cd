@@ -189,28 +189,28 @@
 				"The Right Tool for the Job|Powdermage|CD|3",
 				"Ability Score Improvement|Powdermage|CD|4",
 				{
-					"classFeature": "Artificer Specialist Feature|Powdermage|CD|5",
+					"classFeature": "Powdermage Specialist Feature|Powdermage|CD|5",
 					"gainSubclassFeature": true
 				},
-				"Tool Expertise|Artificer|CD|6",
-				"Flash of Genius|Artificer|CD|7",
-				"Ability Score Improvement|Artificer|CD|8",
+				"Tool Expertise|Powdermage|CD|6",
+				"Flash of Genius|Powdermage|CD|7",
+				"Ability Score Improvement|Powdermage|CD|8",
 				{
-					"classFeature": "Artificer Specialist Feature|Artificer|TCE|9",
+					"classFeature": "Powdermage Specialist Feature|Powdermage|TCE|9",
 					"gainSubclassFeature": true
 				},
-				"Magic Item Adept|Artificer|TCE|10",
-				"Spell-Storing Item|Artificer|TCE|11",
-				"Ability Score Improvement|Artificer|TCE|12",
-				"Magic Item Savant|Artificer|TCE|14",
+				"Magic Item Adept|Powdermage|TCE|10",
+				"Spell-Storing Item|Powdermage|TCE|11",
+				"Ability Score Improvement|Powdermage|TCE|12",
+				"Magic Item Savant|Powdermage|TCE|14",
 				{
-					"classFeature": "Artificer Specialist Feature|Artificer|TCE|15",
+					"classFeature": "Powdermage Specialist Feature|Powdermage|TCE|15",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Artificer|TCE|16",
-				"Magic Item Master|Artificer|TCE|18",
-				"Ability Score Improvement|Artificer|TCE|19",
-				"Soul of Artifice|Artificer|TCE|20"
+				"Ability Score Improvement|Powdermage|TCE|16",
+				"Magic Item Master|Powdermage|TCE|18",
+				"Ability Score Improvement|Powdermage|TCE|19",
+				"Soul of Artifice|Powdermage|TCE|20"
 			],
 			"subclassTitle": "Powdermage Specialist",
 			"fluff": [
@@ -218,57 +218,57 @@
 					"name": "Powdermage",
 					"type": "section",
 					"entries": [
-						"Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections. Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.",
+						"Masters of invention, Powdermages use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections. Powdermages use a variety of tools to channel their arcane power. To cast a spell, an Powdermage might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of Powdermages is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an Powdermage.",
 						{
 							"type": "entries",
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Artificers in Many Worlds",
+									"name": "Powdermages in Many Worlds",
 									"entries": [
-										"Throughout the D&D multiverse, artificers create inventions and magic items of peace and war. Many lives have been brightened or saved because of the work of kind artificers, but countless lives have also been lost because of the mass destruction unleashed by certain artificers' creations.",
-										"In the Forgotten Realms, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the world of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational.",
-										"Artificers in the City of Sigil share discoveries from throughout the multiverse, and from there, the gnome artificer Vi runs a cosmos-spanning business that hires adventurers to fix problems that others deem unfixable. In Vi's home world, Eberron, magic is harnessed as a form of science and deployed throughout society, largely as a result of the wondrous ingenuity of artificers."
+										"Throughout the D&D multiverse, Powdermages create inventions and magic items of peace and war. Many lives have been brightened or saved because of the work of kind Powdermages, but countless lives have also been lost because of the mass destruction unleashed by certain Powdermages' creations.",
+										"In the Forgotten Realms, the island of Lantan is home to many Powdermages, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the world of Greyhawk have inspired some folk to walk the path of the Powdermage, and in Mystara, various nations employ Powdermages to keep airships and other wondrous devices operational.",
+										"Powdermages in the City of Sigil share discoveries from throughout the multiverse, and from there, the gnome Powdermage Vi runs a cosmos-spanning business that hires adventurers to fix problems that others deem unfixable. In Vi's home world, Eberron, magic is harnessed as a form of science and deployed throughout society, largely as a result of the wondrous ingenuity of Powdermages."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Creating an Artificer",
+									"name": "Creating an Powdermage",
 									"entries": [
-										"To create an artificer, consult the subsections which give you hit points, proficiencies, and starting equipment. Then look at the Artificer table to see which features you get at each level. The descriptions of those features appear below."
+										"To create an Powdermage, consult the subsections which give you hit points, proficiencies, and starting equipment. Then look at the Powdermage table to see which features you get at each level. The descriptions of those features appear below."
 									]
 								},
 								{
 									"type": "quote",
 									"entries": [
-										"Artificers invent cutting-edge problems, then try to solve them-loudly and often with collateral damage."
+										"Powdermages invent cutting-edge problems, then try to solve them-loudly and often with collateral damage."
 									],
 									"by": "Tasha"
 								},
 								{
 									"type": "entries",
-									"name": "Multiclassing and the Artificer",
+									"name": "Multiclassing and the Powdermage",
 									"entries": [
-										"If your group uses the optional rule on multiclassing in the {@book Player's Handbook|PHB}, here's what you need to know if you choose artificer as one of your classes.",
+										"If your group uses the optional rule on multiclassing in the {@book Player's Handbook|PHB}, here's what you need to know if you choose Powdermage as one of your classes.",
 										{
 											"type": "entries",
 											"name": "Ability Score Minimum",
 											"entries": [
-												"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer."
+												"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an Powdermage."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Proficiencies Gained",
 											"entries": [
-												"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item thieves' tools|PHB}, {@item tinker's tools|PHB}."
+												"If Powdermage isn't your initial class, here are the proficiencies you gain when you take your first level as an Powdermage: light armor, medium armor, shields, {@item thieves' tools|PHB}, {@item tinker's tools|PHB}."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Spell Slots",
 											"entries": [
-												"Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots."
+												"Add half your levels (rounded up) in the Powdermage class to the appropriate levels from other classes to determine your available spell slots."
 											]
 										}
 									]
@@ -282,66 +282,66 @@
 					"name": "Powdermage",
 					"type": "section",
 					"entries": [
-						"Masters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use {@item alchemist's supplies|PHB} to create a potent elixir, {@item calligrapher's supplies|PHB} to inscribe a sigil of power on an ally's armor, or {@item tinker's tools|PHB} to craft a temporary charm. The magic of artificers is tied to their tools and their talents.",
+						"Masters of unlocking magic in everyday objects, Powdermages are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Powdermages use tools to channel arcane power, crafting magical objects. To cast a spell, an Powdermage could use {@item alchemist's supplies|PHB} to create a potent elixir, {@item calligrapher's supplies|PHB} to inscribe a sigil of power on an ally's armor, or {@item tinker's tools|PHB} to craft a temporary charm. The magic of Powdermages is tied to their tools and their talents.",
 						{
 							"type": "entries",
 							"name": "Arcane Science",
 							"entries": [
-								"In the world of Eberron, arcane magic has been harnessed as a form of science and deployed throughout society. Artificers reflect this development. Their knowledge of magical devices, and their ability to infuse mundane items with magic, allows Eberron's most miraculous projects to continue.",
-								"During the Last War, artificers were marshaled on a massive scale. Many lives were saved because of the inventions of brave artificers, but countless lives were also lost because of the mass destruction unleashed by their creations."
+								"In the world of Eberron, arcane magic has been harnessed as a form of science and deployed throughout society. Powdermages reflect this development. Their knowledge of magical devices, and their ability to infuse mundane items with magic, allows Eberron's most miraculous projects to continue.",
+								"During the Last War, Powdermages were marshaled on a massive scale. Many lives were saved because of the inventions of brave Powdermages, but countless lives were also lost because of the mass destruction unleashed by their creations."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Seekers of New Lore",
 							"entries": [
-								"Nothing excites an artificer quite like uncovering a new metal or discovering a source of elemental energy. In artificer circles, new inventions and strange discoveries create the most excitement. Artificers who wish to make their mark must innovate, creating something fresh, rather than iterating on familiar designs.",
-								"This drive for novelty pushes artificers to become adventurers. Eberron's main travel routes and populated regions have long since been explored. Thus, artificers seek the frontiers of civilization in hopes of making the next great discovery in arcane research."
+								"Nothing excites an Powdermage quite like uncovering a new metal or discovering a source of elemental energy. In Powdermage circles, new inventions and strange discoveries create the most excitement. Powdermages who wish to make their mark must innovate, creating something fresh, rather than iterating on familiar designs.",
+								"This drive for novelty pushes Powdermages to become adventurers. Eberron's main travel routes and populated regions have long since been explored. Thus, Powdermages seek the frontiers of civilization in hopes of making the next great discovery in arcane research."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Creating an Artificer",
+							"name": "Creating an Powdermage",
 							"entries": [
-								"When creating an artificer, think about your character's relationship with the artisan who taught them their craft. Does the character have a rival? Talk to your DM about the role played by artificers in the campaign and the sort of organizations you might have ties to.",
+								"When creating an Powdermage, think about your character's relationship with the artisan who taught them their craft. Does the character have a rival? Talk to your DM about the role played by Powdermages in the campaign and the sort of organizations you might have ties to.",
 								{
 									"type": "inset",
-									"name": "Artificers in Other Worlds",
+									"name": "Powdermages in Other Worlds",
 									"entries": [
-										"Eberron is the world most associated with artificers, yet the class can be found throughout the D&D multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational. In the City of Sigil, artificers share discoveries from throughout the cosmos, and one in particular\u2014the gnome inventor Vi\u2014has run a multiverse-spanning business from there since leaving the world of her birth, Eberron. In the world-city Ravnica, the Izzet League trains numerous artificers, the destructiveness of whom is unparalleled in other worlds\u2014except, perhaps, by the tinker gnomes of Krynn."
+										"Eberron is the world most associated with Powdermages, yet the class can be found throughout the D&D multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many Powdermages, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the Powdermage, and in Mystara, various nations employ Powdermages to keep airships and other wondrous devices operational. In the City of Sigil, Powdermages share discoveries from throughout the cosmos, and one in particular\u2014the gnome inventor Vi\u2014has run a multiverse-spanning business from there since leaving the world of her birth, Eberron. In the world-city Ravnica, the Izzet League trains numerous Powdermages, the destructiveness of whom is unparalleled in other worlds\u2014except, perhaps, by the tinker gnomes of Krynn."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the {@background guild artisan} background."
+										"You can make an Powdermage quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the {@background guild artisan} background."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Optional Rule: Multiclassing",
 									"entries": [
-										"If your group uses the optional rule on multiclassing in the {@book Player's Handbook|PHB}, here's what you need to know if you choose artificer as one of your classes.",
+										"If your group uses the optional rule on multiclassing in the {@book Player's Handbook|PHB}, here's what you need to know if you choose Powdermage as one of your classes.",
 										{
 											"type": "entries",
 											"name": "Ability Score Minimum",
 											"entries": [
-												"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer."
+												"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an Powdermage."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Proficiencies Gained",
 											"entries": [
-												"If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, {@item thieves' tools|PHB}, {@item tinker's tools|PHB}."
+												"If Powdermage isn't your initial class, here are the proficiencies you gain when you take your first level as an Powdermage: light armor, medium armor, shields, {@item thieves' tools|PHB}, {@item tinker's tools|PHB}."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Spell Slots",
 											"entries": [
-												"Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots."
+												"Add half your levels (rounded up) in the Powdermage class to the appropriate levels from other classes to determine your available spell slots."
 											]
 										}
 									]
@@ -396,10 +396,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Alchemist|Artificer|TCE|Alchemist|TCE|3",
-				"Alchemical Savant|Artificer|TCE|Alchemist|TCE|5",
-				"Restorative Reagents|Artificer|TCE|Alchemist|TCE|9",
-				"Chemical Mastery|Artificer|TCE|Alchemist|TCE|15"
+				"Alchemist|Powdermage|TCE|Alchemist|TCE|3",
+				"Alchemical Savant|Powdermage|TCE|Alchemist|TCE|5",
+				"Restorative Reagents|Powdermage|TCE|Alchemist|TCE|9",
+				"Chemical Mastery|Powdermage|TCE|Alchemist|TCE|15"
 			]
 		},
 		{
@@ -436,10 +436,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Armorer|Artificer|TCE|Armorer|TCE|3",
-				"Extra Attack|Artificer|TCE|Armorer|TCE|5",
-				"Armor Modifications|Artificer|TCE|Armorer|TCE|9",
-				"Perfected Armor|Artificer|TCE|Armorer|TCE|15"
+				"Armorer|Powdermage|TCE|Armorer|TCE|3",
+				"Extra Attack|Powdermage|TCE|Armorer|TCE|5",
+				"Armor Modifications|Powdermage|TCE|Armorer|TCE|9",
+				"Perfected Armor|Powdermage|TCE|Armorer|TCE|15"
 			]
 		},
 		{
@@ -482,10 +482,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Artillerist|Artificer|TCE|Artillerist|TCE|3",
-				"Arcane Firearm|Artificer|TCE|Artillerist|TCE|5",
-				"Explosive Cannon|Artificer|TCE|Artillerist|TCE|9",
-				"Fortified Position|Artificer|TCE|Artillerist|TCE|15"
+				"Artillerist|Powdermage|TCE|Artillerist|TCE|3",
+				"Arcane Firearm|Powdermage|TCE|Artillerist|TCE|5",
+				"Explosive Cannon|Powdermage|TCE|Artillerist|TCE|9",
+				"Fortified Position|Powdermage|TCE|Artillerist|TCE|15"
 			]
 		},
 		{
@@ -528,10 +528,10 @@
 				}
 			],
 			"subclassFeatures": [
-				"Battle Smith|Artificer|TCE|Battle Smith|TCE|3",
-				"Extra Attack|Artificer|TCE|Battle Smith|TCE|5",
-				"Arcane Jolt|Artificer|TCE|Battle Smith|TCE|9",
-				"Improved Defender|Artificer|TCE|Battle Smith|TCE|15"
+				"Battle Smith|Powdermage|TCE|Battle Smith|TCE|3",
+				"Extra Attack|Powdermage|TCE|Battle Smith|TCE|5",
+				"Arcane Jolt|Powdermage|TCE|Battle Smith|TCE|9",
+				"Improved Defender|Powdermage|TCE|Battle Smith|TCE|15"
 			]
 		}
 	],
@@ -550,7 +550,7 @@
 			"classSource": "CD",
 			"level": 1,
 			"entries": [
-				"The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in {@book chapter 9|DMG|9|Firearms} of the {@book Dungeon Master's Guide|DMG} and your artificer has been exposed to the operation of such weapons, your artificer is proficient with them."
+				"The secrets of creating and operating gunpowder weapons have been discovered in various corners of the D&D multiverse. If your Dungeon Master uses the rules on firearms in {@book chapter 9|DMG|9|Firearms} of the {@book Dungeon Master's Guide|DMG} and your Powdermage has been exposed to the operation of such weapons, your Powdermage is proficient with them."
 			]
 		},
 		{
@@ -586,7 +586,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"{@i 2nd-level artificer feature}",
+				"{@i 2nd-level Powdermage feature}",
 				"Starting at 2nd level, you can use your reaction to prepare and ignite gunpowder, entering a Powder Trance.",
 				"When entering the trance in this way, you can only consume an amount of charges equal to your spellcasting ability modifier (minimum of 1). Once in the trance, you gain the following benefits:",
 				{
@@ -683,7 +683,7 @@
 			"classSource": "CD",
 			"level": 2,
 			"entries": [
-				"{@i 2nd-level artificer feature}",
+				"{@i 2nd-level Powdermage feature}",
 				{
 					"type": "list",
 					"items": [
@@ -695,7 +695,7 @@
 			]
 		},
 		{
-			"name": "Artificer Specialist",
+			"name": "Powdermage Specialist",
 			"source": "CD",
 			"page": 9,
 			"otherSources": [
@@ -708,7 +708,7 @@
 			"classSource": "CD",
 			"level": 3,
 			"entries": [
-				"{@i 3rd-level artificer feature}",
+				"{@i 3rd-level Powdermage feature}",
 				"Choose the type of specialist you are, each of which is detailed at the end of the class's description. Your choice grants you features at 5th level and again at 9th and 15th level."
 			]
 		},
@@ -726,7 +726,7 @@
 			"classSource": "CD",
 			"level": 3,
 			"entries": [
-				"{@i 3rd-level artificer feature}",
+				"{@i 3rd-level Powdermage feature}",
 				"You've learned how to produce exactly the tool you need: with {@item thieves' tools|PHB} or {@item artisan's tools|PHB} in hand, you can magically create one set of {@item artisan's tools|PHB} in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again."
 			]
 		},
@@ -744,13 +744,13 @@
 			"classSource": "CD",
 			"level": 4,
 			"entries": [
-				"{@i 4th-level artificer feature}",
+				"{@i 4th-level Powdermage feature}",
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Artificer Specialist Feature",
+			"name": "Powdermage Specialist Feature",
 			"source": "CD",
 			"page": 9,
 			"otherSources": [
@@ -763,8 +763,8 @@
 			"classSource": "CD",
 			"level": 5,
 			"entries": [
-				"{@i 5th-level artificer feature}",
-				"You gain a feature granted by your Artificer Specialist choice."
+				"{@i 5th-level Powdermage feature}",
+				"You gain a feature granted by your Powdermage Specialist choice."
 			]
 		},
 		{
@@ -781,7 +781,7 @@
 			"classSource": "CD",
 			"level": 6,
 			"entries": [
-				"{@i 6th-level artificer feature}",
+				"{@i 6th-level Powdermage feature}",
 				"Your proficiency bonus is now doubled for any ability check you make that uses your proficiency with a tool."
 			]
 		},
@@ -799,7 +799,7 @@
 			"classSource": "CD",
 			"level": 7,
 			"entries": [
-				"{@i 7th-level artificer feature}",
+				"{@i 7th-level Powdermage feature}",
 				"You've gained the ability to come up with solutions under pressure. When you or another creature you can see within 30 feet of you makes an ability check or a saving throw, you can use your reaction to add your Intelligence modifier to the roll.",
 				"You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest."
 			]
@@ -818,13 +818,13 @@
 			"classSource": "CD",
 			"level": 8,
 			"entries": [
-				"{@i 8th-level artificer feature}",
+				"{@i 8th-level Powdermage feature}",
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 			]
 		},
 		{
-			"name": "Artificer Specialist Feature",
+			"name": "Powdermage Specialist Feature",
 			"source": "CD",
 			"page": 9,
 			"otherSources": [
@@ -837,8 +837,8 @@
 			"classSource": "CD",
 			"level": 9,
 			"entries": [
-				"{@i 9th-level artificer feature}",
-				"You gain a feature granted by your Artificer Specialist choice."
+				"{@i 9th-level Powdermage feature}",
+				"You gain a feature granted by your Powdermage Specialist choice."
 			]
 		},
 		{
@@ -855,7 +855,7 @@
 			"classSource": "CD",
 			"level": 10,
 			"entries": [
-				"{@i 10th-level artificer feature}",
+				"{@i 10th-level Powdermage feature}",
 				"You've achieved a profound understanding of how to use and make magic items:",
 				{
 					"type": "list",
@@ -880,8 +880,8 @@
 			"classSource": "CD",
 			"level": 11,
 			"entries": [
-				"{@i 11th-level artificer feature}",
-				"You can now store a spell in an object. Whenever you finish a long rest, you can touch one {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the {@filter artificer spell list|spells|class=Artificer|cast time=action|level=1;2} that requires 1 action to cast (you needn't have it prepared).",
+				"{@i 11th-level Powdermage feature}",
+				"You can now store a spell in an object. Whenever you finish a long rest, you can touch one {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} or one item that you can use as a spellcasting focus, and you store a spell in it, choosing a 1st- or 2nd-level spell from the {@filter Powdermage spell list|spells|class=Powdermage|cast time=action|level=1;2} that requires 1 action to cast (you needn't have it prepared).",
 				"While holding the object, a creature can take an action to produce the spell's effect from it, using your spellcasting ability modifier. If the spell requires {@status concentration}, the creature must concentrate. The spell stays in the object until it's been used a number of times equal to twice your Intelligence modifier (minimum of twice) or until you use this feature again to store a spell in an object."
 			]
 		},
@@ -899,7 +899,7 @@
 			"classSource": "CD",
 			"level": 12,
 			"entries": [
-				"{@i 12th-level artificer feature}",
+				"{@i 12th-level Powdermage feature}",
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 			]
@@ -918,7 +918,7 @@
 			"classSource": "CD",
 			"level": 14,
 			"entries": [
-				"{@i 14th-level artificer feature}",
+				"{@i 14th-level Powdermage feature}",
 				"Your skill with magic items deepens:",
 				{
 					"type": "list",
@@ -930,7 +930,7 @@
 			]
 		},
 		{
-			"name": "Artificer Specialist Feature",
+			"name": "Powdermage Specialist Feature",
 			"source": "CD",
 			"page": 9,
 			"otherSources": [
@@ -943,8 +943,8 @@
 			"classSource": "CD",
 			"level": 15,
 			"entries": [
-				"{@i 15th-level artificer feature}",
-				"You gain a feature granted by your Artificer Specialist choice."
+				"{@i 15th-level Powdermage feature}",
+				"You gain a feature granted by your Powdermage Specialist choice."
 			]
 		},
 		{
@@ -961,7 +961,7 @@
 			"classSource": "CD",
 			"level": 16,
 			"entries": [
-				"{@i 16th-level artificer feature}",
+				"{@i 16th-level Powdermage feature}",
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 			]
@@ -980,7 +980,7 @@
 			"classSource": "CD",
 			"level": 18,
 			"entries": [
-				"{@i 18th-level artificer feature}",
+				"{@i 18th-level Powdermage feature}",
 				"You can now attune to up to six magic items at once."
 			]
 		},
@@ -998,7 +998,7 @@
 			"classSource": "CD",
 			"level": 19,
 			"entries": [
-				"{@i 19th-level artificer feature}",
+				"{@i 19th-level Powdermage feature}",
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
 			]
@@ -1017,13 +1017,13 @@
 			"classSource": "CD",
 			"level": 20,
 			"entries": [
-				"{@i 20th-level artificer feature}",
+				"{@i 20th-level Powdermage feature}",
 				"You have developed a mystical connection to your magic items, which you can draw on for protection:",
 				{
 					"type": "list",
 					"items": [
 						"You gain a +1 bonus to all saving throws per magic item you are currently attuned to.",
-						"If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your artificer infusions, causing you to drop to 1 hit point instead of 0."
+						"If you're reduced to 0 hit points but not killed outright, you can use your reaction to end one of your Powdermage infusions, causing you to drop to 1 hit point instead of 0."
 					]
 				}
 			]
@@ -1046,18 +1046,18 @@
 			"subclassSource": "CD",
 			"level": 3,
 			"entries": [
-				"An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
+				"An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of Powdermage traditions, and its versatility has long been valued during times of war and peace.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "Tool Proficiency|Powdermage|TCE|Alchemist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alchemist Spells|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "Alchemist Spells|Powdermage|TCE|Alchemist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Experimental Elixir|Artificer|TCE|Alchemist|TCE|3"
+					"subclassFeature": "Experimental Elixir|Powdermage|TCE|Alchemist|TCE|3"
 				}
 			]
 		},
@@ -1078,12 +1078,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemist Spells table. These spells count as Powdermage spells for you, but they don't count against the number of Powdermage spells you prepare.",
 				{
 					"type": "table",
 					"caption": "Alchemist Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Powdermage Level",
 						"Spell"
 					],
 					"colStyles": [
@@ -1280,22 +1280,22 @@
 			"subclassSource": "CD",
 			"level": 3,
 			"entries": [
-				"An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
+				"An Powdermage who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the Powdermage's magic, unleash potent attacks, and generate a formidable defense. The Powdermage bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tools of the Trade|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "Tools of the Trade|Powdermage|TCE|Armorer|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armorer Spells|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "Armorer Spells|Powdermage|TCE|Armorer|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Arcane Armor|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "Arcane Armor|Powdermage|TCE|Armorer|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Armor Model|Artificer|TCE|Armorer|TCE|3"
+					"subclassFeature": "Armor Model|Powdermage|TCE|Armorer|TCE|3"
 				}
 			]
 		},
@@ -1387,7 +1387,7 @@
 					"type": "list",
 					"items": [
 						"If the armor normally has a Strength requirement, the arcane armor lacks this requirement for you.",
-						"You can use the arcane armor as a spellcasting focus for your artificer spells.",
+						"You can use the arcane armor as a spellcasting focus for your Powdermage spells.",
 						"The armor attaches to you and can't be removed against your will. It also expands to cover your entire body, although you can retract or deploy the helmet as a bonus action. The armor replaces any missing limbs, functioning identically to a limb it replaces.",
 						"You can doff or don the armor as an action. The armor continues to be Arcane Armor until you don another suit of armor or you die."
 					]
@@ -1423,11 +1423,11 @@
 									"items": [
 										{
 											"type": "refSubclassFeature",
-											"subclassFeature": "Thunder Gauntlets|Artificer|TCE|Armorer|TCE|3"
+											"subclassFeature": "Thunder Gauntlets|Powdermage|TCE|Armorer|TCE|3"
 										},
 										{
 											"type": "refSubclassFeature",
-											"subclassFeature": "Defensive Field|Artificer|TCE|Armorer|TCE|3"
+											"subclassFeature": "Defensive Field|Powdermage|TCE|Armorer|TCE|3"
 										}
 									]
 								}
@@ -1444,15 +1444,15 @@
 									"items": [
 										{
 											"type": "refSubclassFeature",
-											"subclassFeature": "Lightning Launcher|Artificer|TCE|Armorer|TCE|3"
+											"subclassFeature": "Lightning Launcher|Powdermage|TCE|Armorer|TCE|3"
 										},
 										{
 											"type": "refSubclassFeature",
-											"subclassFeature": "Powered Steps|Artificer|TCE|Armorer|TCE|3"
+											"subclassFeature": "Powered Steps|Powdermage|TCE|Armorer|TCE|3"
 										},
 										{
 											"type": "refSubclassFeature",
-											"subclassFeature": "Dampening Field|Artificer|TCE|Armorer|TCE|3"
+											"subclassFeature": "Dampening Field|Powdermage|TCE|Armorer|TCE|3"
 										}
 									]
 								}
@@ -1474,12 +1474,12 @@
 			"header": 1,
 			"entries": [
 				"{@i 3rd-level Armorer feature}",
-				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Armorer Spells table. These spells count as Powdermage spells for you, but they don't count against the number of Powdermage spells you prepare.",
 				{
 					"type": "table",
 					"caption": "Armorer Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Powdermage Level",
 						"Spell"
 					],
 					"colStyles": [
@@ -1553,7 +1553,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 9th-level Armorer feature}",
-				"You learn how to use your artificer infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor."
+				"You learn how to use your Powdermage infusions to specially modify your Arcane Armor. That armor now counts as separate items for the purposes of your Infuse Items feature: armor (the chest piece), boots, helmet, and the armor's special weapon. Each of those items can bear one of your infusions, and the infusions transfer over if you change your armor's model with the Armor Model feature. In addition, the maximum number of items you can infuse at once increases by 2, but those extra items must be part of your Arcane Armor."
 			]
 		},
 		{
@@ -1603,18 +1603,18 @@
 			"level": 3,
 			"entries": [
 				"An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield. This destructive power was valued by all the armies of the Last War. Now that the war is over, some members of this specialization have sought to build a more peaceful world by using their powers to fight the resurgence of strife in Khorvaire.",
-				"The gnome artificer Vi, an unlikely yet key member of House Cannith's warforged project, has been especially vocal about making things right: \"It's about time we fixed things instead of blowing them all to hell.\"",
+				"The gnome Powdermage Vi, an unlikely yet key member of House Cannith's warforged project, has been especially vocal about making things right: \"It's about time we fixed things instead of blowing them all to hell.\"",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Artillerist|TCE|3"
+					"subclassFeature": "Tool Proficiency|Powdermage|TCE|Artillerist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Artillerist Spells|Artificer|TCE|Artillerist|TCE|3"
+					"subclassFeature": "Artillerist Spells|Powdermage|TCE|Artillerist|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Eldritch Cannon|Artificer|TCE|Artillerist|TCE|3"
+					"subclassFeature": "Eldritch Cannon|Powdermage|TCE|Artillerist|TCE|3"
 				}
 			]
 		},
@@ -1635,12 +1635,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as Powdermage spells for you, but they don't count against the number of Powdermage spells you prepare.",
 				{
 					"type": "table",
 					"caption": "Artillerist Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Powdermage Level",
 						"Spell"
 					],
 					"colStyles": [
@@ -1691,7 +1691,7 @@
 			"entries": [
 				"At 3rd level, you learn how to create a magical cannon. Using {@item woodcarver's tools|PHB} or {@item smith's tools|PHB}, you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.",
 				"Once you create a cannon, you can't do so again until you finish a long rest or until you expend a spell slot of 1st level or higher. You can have only one cannon at a time and can't create one while your cannon is present.",
-				"The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.",
+				"The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your Powdermage level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the {@spell mending} spell is cast on it, it regains {@dice 2d6} hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.",
 				"When you create the cannon, you determine its appearance and whether it has legs. You also decide which type it is, choosing from the options on the Eldritch Cannons table. On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space, provided it has legs.",
 				{
 					"type": "table",
@@ -1759,7 +1759,7 @@
 			"header": 2,
 			"entries": [
 				"At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use {@item woodcarver's tools|PHB} to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.",
-				"You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a {@damage d8}, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
+				"You can use your arcane firearm as a spellcasting focus for your Powdermage spells. When you cast an Powdermage spell through the firearm, roll a {@damage d8}, and you gain a bonus to one of the spell's damage rolls equal to the number rolled."
 			]
 		},
 		{
@@ -1833,22 +1833,22 @@
 			"level": 3,
 			"entries": [
 				"Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.",
-				"Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.",
+				"Battle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these Powdermages led efforts to aid those who were injured in the war's horrific battles.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "Tool Proficiency|Powdermage|TCE|Battle Smith|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battle Smith Spells|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "Battle Smith Spells|Powdermage|TCE|Battle Smith|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Battle Ready|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "Battle Ready|Powdermage|TCE|Battle Smith|TCE|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Steel Defender|Artificer|TCE|Battle Smith|TCE|3"
+					"subclassFeature": "Steel Defender|Powdermage|TCE|Battle Smith|TCE|3"
 				}
 			]
 		},
@@ -1896,12 +1896,12 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Battle Smith Spells table. These spells count as Powdermage spells for you, but they don't count against the number of Powdermage spells you prepare.",
 				{
 					"type": "table",
 					"caption": "Battle Smith Spells",
 					"colLabels": [
-						"Artificer Level",
+						"Powdermage Level",
 						"Spell"
 					],
 					"colStyles": [
