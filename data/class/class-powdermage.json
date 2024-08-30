@@ -1,4 +1,24 @@
 {
+	"_meta": {
+    	"sources": [
+    	    {
+    	        "json": "class-powdermage.json",
+    	        "abbreviation": "powdermage",
+    	        "full": "Powdermage",
+    	        "authors": [
+    	            "Starcasm"
+    	        ],
+    	        "convertedBy": [
+    	            "Starcasm"
+    	        ],
+    	        "version": "1.0",
+    	        "url": "",
+    	        "targetSchema": "1.0"
+    	    }
+    	],
+    	"dateAdded": 0,
+    	"dateLastModified": 0
+	},
 	"class": [
 		{
 			"name": "Powdermage",
