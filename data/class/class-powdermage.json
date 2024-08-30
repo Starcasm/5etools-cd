@@ -157,23 +157,24 @@
 				}
 			},
 			"classFeatures": [
-				"Optional Rule: Firearm Proficiency|Artificer|TCE|1",
-				"Magical Tinkering|Artificer|TCE|1",
-				"Spellcasting|Artificer|TCE|1",
-				"Infuse Item|Artificer|TCE|2",
+				"Optional Rule: Firearm Proficiency|Powdermage|CD|1",
+				"Marked One|Powdermage|CD|1",
+				"Gunsmith|Powdermage|CD|1",
+				"Powder Trance|Powdermage|CD|2",
+				"Powder Blindness|Powdermage|CD|2",
 				{
-					"classFeature": "Artificer Specialist|Artificer|TCE|3",
+					"classFeature": "Powdermage Specialist|Powdermage|CD|3",
 					"gainSubclassFeature": true
 				},
-				"The Right Tool for the Job|Artificer|TCE|3",
-				"Ability Score Improvement|Artificer|TCE|4",
+				"The Right Tool for the Job|Powdermage|CD|3",
+				"Ability Score Improvement|Powdermage|CD|4",
 				{
-					"classFeature": "Artificer Specialist Feature|Artificer|TCE|5",
+					"classFeature": "Artificer Specialist Feature|Powdermage|CD|5",
 					"gainSubclassFeature": true
 				},
-				"Tool Expertise|Artificer|TCE|6",
-				"Flash of Genius|Artificer|TCE|7",
-				"Ability Score Improvement|Artificer|TCE|8",
+				"Tool Expertise|Artificer|CD|6",
+				"Flash of Genius|Artificer|CD|7",
+				"Ability Score Improvement|Artificer|CD|8",
 				{
 					"classFeature": "Artificer Specialist Feature|Artificer|TCE|9",
 					"gainSubclassFeature": true
@@ -191,7 +192,7 @@
 				"Ability Score Improvement|Artificer|TCE|19",
 				"Soul of Artifice|Artificer|TCE|20"
 			],
-			"subclassTitle": "Artificer Specialist",
+			"subclassTitle": "Powdermage Specialist",
 			"fluff": [
 				{
 					"name": "Powdermage",
