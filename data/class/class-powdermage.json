@@ -595,15 +595,15 @@
 					"entries": [
 						{
 							"type": "refClassFeature",
-							"classFeature": "Controlled Demolition|Powdermage||2"
+							"classFeature": "Controlled Demolition|Powdermage|CD|2"
 						},
 						{
 							"type": "refClassFeature",
-							"classFeature": "Flow State|Powdermage||2"
+							"classFeature": "Flow State|Powdermage|CD|2"
 						},
 						{
 							"type": "refClassFeature",
-							"classFeature": "Reverberative Shot|Powdermage||2"
+							"classFeature": "Reverberative Shot|Powdermage|CD|2"
 						}
 					]
 				},
